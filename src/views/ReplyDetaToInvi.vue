@@ -74,6 +74,8 @@ export default {
     }
     ,findDep:function (index,data){
       console.log(index)
+      console.log(index)
+      console.log(index)
     }
   }
 }
