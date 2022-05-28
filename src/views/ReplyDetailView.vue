@@ -37,7 +37,8 @@ export default {
     let that = this
     this.invid = this.$route.params.invid
     this.$axios.get('/api/replyDetail/query/'+this.invid).then(function (pro) {
-        that  = pro.data
+      that  = pro.data
+      console.log(that)
     })
   },
   data() {
