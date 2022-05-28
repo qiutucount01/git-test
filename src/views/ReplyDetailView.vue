@@ -39,6 +39,7 @@ export default {
     this.$axios.get('/api/replyDetail/query/'+this.invid).then(function (pro) {
       that  = pro.data
       console.log(that)
+      console.log(that)
     })
   },
   data() {
